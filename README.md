@@ -45,7 +45,9 @@ The objective was to answer key business questions related to revenue trends, pr
 - Regional Revenue & Profit
 - Payment Method Distribution
 
-![Page 1](page1.png)
+## Page 1 – E-commerce Performance Dashboard
+
+![Page 1](images/ecommerce_dashboard_page1.png)
 
 ---
 
@@ -58,8 +60,9 @@ The objective was to answer key business questions related to revenue trends, pr
 - Average Shipping Cost by Region
 - Top 10 Customers by Revenue
 
-![Page 2](page2.png)
+## Page 2 – Customer & Operations Analysis
 
+![Page 2](images/customer_operations_page2.png)
 ---
 
 ## Key Insights
