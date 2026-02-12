@@ -1,10 +1,14 @@
+
 # E-commerce SQL + Power BI Performance Analysis
 
 ## Project Overview
 
-This project presents an end-to-end E-commerce performance analysis using SQL for data extraction and transformation, and Power BI for interactive dashboard development.
+This project delivers an end-to-end E-commerce performance analysis using:
 
-The objective was to answer key business questions related to revenue trends, profitability, customer behavior, operational efficiency, and regional performance.
+* **SQL Server** for data extraction, transformation, and business metric computation
+* **Power BI** for data modeling and interactive dashboard development
+
+The objective is to translate raw transactional data into decision-ready insights across revenue, profitability, customers, and operations.
 
 ---
 
@@ -25,63 +29,84 @@ The objective was to answer key business questions related to revenue trends, pr
 
 ## Tools & Technologies
 
-- SQL Server
-- Power BI
-- DAX
-- Data Modeling
-- Data Visualization
+* SQL Server
+* Power BI
+* DAX
+* Data Modeling
+* Data Visualization
 
 ---
 
-## Page 1 – E-commerce Performance Dashboard
+## Dashboard Structure
 
-### Key Highlights
-- Total Revenue
-- Total Profit
-- Total Orders
-- Profit Margin %
-- Monthly Revenue Trend
-- Category-wise Revenue & Profit
-- Regional Revenue & Profit
-- Payment Method Distribution
+### Page 1 – E-commerce Performance Dashboard
 
-## Page 1 – E-commerce Performance Dashboard
+Focus: Revenue & Profitability Overview
 
-![Page 1](images/ecommerce_dashboard_page1.png)
+Includes:
+
+Total Revenue
+
+Total Profit
+
+Total Orders
+
+Profit Margin %
+
+Monthly Revenue Trend
+
+Category-wise Revenue & Profit
+
+Regional Revenue & Profit
+
+Payment Method Distribution
+
+![Page 1 Dashboard](images/page1.png)
 
 ---
 
-## Page 2 – Customer & Operations Analysis
+### Page 2 – Customer & Operations Analysis
 
-### Key Highlights
-- Return Rate by Category
-- Repeat vs One-Time Customer Distribution
-- Average Delivery Time by Region
-- Average Shipping Cost by Region
-- Top 10 Customers by Revenue
+Focus: Customer Behavior & Operational Metrics
 
-## Page 2 – Customer & Operations Analysis
+Includes:
 
-![Page 2](images/customer_operations_page2.png)
+Return Rate by Category
+
+Repeat vs One-Time Customer Distribution
+
+Average Delivery Time by Region
+
+Average Shipping Cost by Region
+
+Top 10 Customers by Revenue
+
+![Page 2 Dashboard](images/page2.png)
+
 ---
 
 ## Key Insights
 
-- Electronics generates the highest revenue and profit.
-- Grocery category contributes revenue but operates at a loss.
-- Revenue trend shows stable growth with seasonal fluctuations.
-- Credit Card and Debit Card dominate payment methods.
-- Majority of customers are repeat customers.
-- Delivery performance varies slightly across regions.
-- Shipping cost remains relatively uniform across regions.
+* **Electronics** generates the highest revenue and profit.
+* **Grocery** contributes revenue but operates at a loss.
+* Revenue trend shows steady growth with seasonal fluctuations.
+* Credit Card and Debit Card dominate payment transactions.
+* Customer base is heavily skewed toward repeat buyers.
+* Delivery time varies moderately across regions.
+* Shipping costs remain relatively uniform across regions.
 
 ---
-
-## Project Structure
-
-- `ecommerce.pbix` → Power BI dashboard file
-- `page1.png` → Dashboard Page 1 screenshot
-- `page2.png` → Dashboard Page 2 screenshot
+ecommerce-sql-powerbi-analysis/
+│
+├── dashboard/
+│   ├── Ecommerce_SQL_PowerBI_Project.pbix
+│   └── Ecommerce_SQL_PowerBI_Project.pdf
+│
+├── images/
+│   ├── page1.png
+│   └── page2.png
+│
+└── README.md
 
 ---
 
@@ -89,9 +114,18 @@ The objective was to answer key business questions related to revenue trends, pr
 
 This project demonstrates:
 
-- Business problem translation into analytical queries
-- SQL-based data exploration
-- DAX-based metric creation
-- Multi-page executive dashboard design
-- Insight-driven storytelling through visualization
+* Translating business questions into analytical logic
+* SQL-based data exploration and metric derivation
+* DAX-driven KPI creation
+* Multi-page executive dashboard architecture
+* Structured insight communication through visualization
 
+---
+
+## Related SQL Project
+
+This Power BI dashboard is built on top of the SQL analysis layer:
+
+🔗 [https://github.com/vikramjeetsingh05/ecommerce-sql-analysis](https://github.com/vikramjeetsingh05/ecommerce-sql-analysis)
+
+---
