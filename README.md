@@ -96,19 +96,6 @@ Top 10 Customers by Revenue
 * Shipping costs remain relatively uniform across regions.
 
 ---
-ecommerce-sql-powerbi-analysis/
-│
-├── dashboard/
-│   ├── Ecommerce_SQL_PowerBI_Project.pbix
-│   └── Ecommerce_SQL_PowerBI_Project.pdf
-│
-├── images/
-│   ├── page1.png
-│   └── page2.png
-│
-└── README.md
-
----
 
 ## Outcome
 
